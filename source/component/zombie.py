@@ -92,7 +92,7 @@ class Zombie(pg.sprite.Sprite):
             self.changeFrames(self.attack_frames)
             self.helmet = False
         if (self.current_time - self.attack_timer) > (c.ATTACK_INTERVAL * self.getTimeRatio()):
-            if self.prey.health > 10000:
+            if self.prey.health > 0:
                 if self.prey_is_plant:
                     self.prey.setDamage(self.damage, self)
                 else:

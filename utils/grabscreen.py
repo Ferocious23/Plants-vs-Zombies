@@ -16,6 +16,7 @@ while(True):
     cv2.imshow('window', cv2.cvtColor(np.array(printscreen_pil), cv2.COLOR_BGR2RGB))
     loc = pyautogui.locateCenterOnScreen('AI_pictures\sunshine.PNG')
     if loc != None:
+        pyautogui.click(loc)
         
     if cv2.waitKey(1) & 0xFF == ord('q'):
         cv2.destroyAllWindows()

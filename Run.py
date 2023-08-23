@@ -19,7 +19,7 @@ def wait_and_click(image_path):
         else:
             time.sleep(1)
 
-image_paths = ['AI_pictures/grave.png', 'AI_pictures/sunflower_test.png', 'AI_pictures/Scary_Peashooter.PNG', 'AI_pictures/Sasquach.PNG', 'AI_pictures/Cold_peashooter.PNG', 'AI_pictures/minebomb.PNG', 'AI_pictures/PuffShroom.PNG', 'AI_pictures/Chille.PNG', 'AI_pictures/Cherry.PNG', 'AI_pictures/Play.PNG']
+image_paths = ['AI_pictures/grave.png', 'AI_pictures/sunflower_test.png', 'AI_pictures/Scary_Peashooter.PNG', 'AI_pictures/Sasquach.PNG', 'AI_pictures/Cold_peashooter.PNG', 'AI_pictures/trio.PNG', 'AI_pictures/blocker.PNG', 'AI_pictures/Chille.PNG', 'AI_pictures/Cherry.PNG', 'AI_pictures/Play.PNG']
 
 for path in image_paths:
     print(path)
